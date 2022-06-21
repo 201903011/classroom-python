@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Class_Frame</class>
+ <widget class="QFrame" name="Class_Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <widget class="QPushButton" name="logout">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>20</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 147, 227);
+border-radius:10px;
+font: 75 16pt &quot;Times New Roman&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="escode">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(197, 197, 197);
+border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Scode</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 147, 227);
+border-radius:10px;
+font: 75 16pt &quot;Times New Roman&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>20</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 147, 227);
+border-radius:10px;
+font: 75 16pt &quot;Times New Roman&quot;;
+color:white;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Create Class</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="teacherclist">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>256</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(221, 221, 221);
+border-radius:15px;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="studentclist">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>130</y>
+     <width>256</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(221, 221, 221);
+border-radius:15px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="estudent">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>550</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 147, 227);
+border-radius: 10px;
+font: 75 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Enter as Student</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eteacher">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>550</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(27, 147, 227);
+border-radius: 10px;
+font: 75 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Enter as Teacher</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
